@@ -10,16 +10,21 @@ This project analyses 21 years of RBI Non-Performing Assets (NPA) movement data 
 
 # 1. Data Sourcing & Excel Cleaning (Initial QA)
 
-  # • Downloaded "MOVEMENT OF NON-PERFORMING ASSETS (NPAs) OF SCHEDULED COMMERCIAL BANKS" dataset from RBI DBIE.
+   • Downloaded "MOVEMENT OF NON-PERFORMING ASSETS (NPAs) OF SCHEDULED COMMERCIAL BANKS" dataset from RBI DBIE.
 
-  # • Handled major data quality issues in Excel : 
+   • Handled major data quality issues in Excel : 
+   
      -  Inconsistent formatting not suitable for exporting to SQL for data analysis.
+     
      -  Merged cells, Blank cells.
+     
      -  Null / "-" values and zero-handling. 
+     
      -  Duplicate rows and variations in bank names. 
+     
      -  Varying bank categories (Public, Private, Foreign, Small Finance).
     
-  # • Prepared clean, import-ready dataset for SQL.
+   • Prepared clean, import-ready dataset for SQL.
 
 ## 2. SQL Server – Data Modelling & Standardization
 
@@ -41,6 +46,7 @@ This project analyses 21 years of RBI Non-Performing Assets (NPA) movement data 
    • Loaded the CSVs into Python using Pandas.
 
    • Built four interactive Plotly visualizations in Google Colab: 
+   
        1. Long-term Gross NPA trend line (2005–2025) 
        [https://deva-dharshini-447.github.io/NPA-Analysis/Charts/GNPA_Trend_2005_2025.html]
        
