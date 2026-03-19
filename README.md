@@ -22,7 +22,7 @@ This project analyses 21 years of RBI Non-Performing Assets (NPA) movement data 
      
 *  Duplicate rows and variations in bank names. 
      
-     *  Varying bank categories (Public, Private, Foreign, Small Finance).
+*  Varying bank categories (Public, Private, Foreign, Small Finance).
     
    • Prepared clean, import-ready dataset for SQL.
 
