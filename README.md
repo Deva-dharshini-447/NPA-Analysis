@@ -12,17 +12,17 @@ This project analyses 21 years of RBI Non-Performing Assets (NPA) movement data 
 
    • Downloaded "MOVEMENT OF NON-PERFORMING ASSETS (NPAs) OF SCHEDULED COMMERCIAL BANKS" dataset from RBI DBIE.
 
-   • Handled major data quality issues in Excel : 
+   • Handled major data quality issues in Excel -  
    
-     -  Inconsistent formatting not suitable for exporting to SQL for data analysis.
+     *  Inconsistent formatting not suitable for exporting to SQL for data analysis.
      
-     -  Merged cells, Blank cells.
+     *  Merged cells, Blank cells.
      
-     -  Null / "-" values and zero-handling. 
+     *  Null / "-" values and zero-handling. 
      
-     -  Duplicate rows and variations in bank names. 
+     *  Duplicate rows and variations in bank names. 
      
-     -  Varying bank categories (Public, Private, Foreign, Small Finance).
+     *  Varying bank categories (Public, Private, Foreign, Small Finance).
     
    • Prepared clean, import-ready dataset for SQL.
 
@@ -34,7 +34,7 @@ This project analyses 21 years of RBI Non-Performing Assets (NPA) movement data 
 
    • Built analytical view v_npa_clean using LEFT JOIN and COALESCE for consistent bank_name_standard across all years.
 
-   • Developed aggregate queries taking into account possible division errors for columns with 0s (NULLIF and CASE statements) to calculate:
+   • Developed aggregate queries taking into account possible division errors for columns with 0s (NULLIF and CASE statements) to calculate -
        - Yearly system-wide totals
        - Sector-level aggregates
        - Core credit risk metrics (Slippage Ratio, Recovery Rate, Write-off Intensity, GNPA Change %, Inferred PCR)
@@ -45,7 +45,7 @@ This project analyses 21 years of RBI Non-Performing Assets (NPA) movement data 
 
    • Loaded the CSVs into Python using Pandas.
 
-   • Built four interactive Plotly visualizations in Google Colab: 
+   • Built four interactive Plotly visualizations in Google Colab -
    
        1. Long-term Gross NPA trend line (2005–2025) 
        [https://deva-dharshini-447.github.io/NPA-Analysis/Charts/GNPA_Trend_2005_2025.html]
