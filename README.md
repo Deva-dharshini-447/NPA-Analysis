@@ -13,11 +13,11 @@ This project analyses 21 years of RBI Non-Performing Assets (NPA) movement data 
   # • Downloaded "MOVEMENT OF NON-PERFORMING ASSETS (NPAs) OF SCHEDULED COMMERCIAL BANKS" dataset from RBI DBIE.
 
   # • Handled major data quality issues in Excel : 
-    - Inconsistent formatting not suitable for exporting to SQL for data analysis
-    - Merged cells, Blank cells
-    - Null / "-" values and zero-handling
-    - Duplicate rows and variations in bank names
-    - Varying bank categories (Public, Private, Foreign, Small Finance)
+     -  Inconsistent formatting not suitable for exporting to SQL for data analysis.
+     -  Merged cells, Blank cells.
+     -  Null / "-" values and zero-handling. 
+     -  Duplicate rows and variations in bank names. 
+     -  Varying bank categories (Public, Private, Foreign, Small Finance).
     
   # • Prepared clean, import-ready dataset for SQL.
 
@@ -43,12 +43,16 @@ This project analyses 21 years of RBI Non-Performing Assets (NPA) movement data 
    • Built four interactive Plotly visualizations in Google Colab: 
        1. Long-term Gross NPA trend line (2005–2025) 
        [https://deva-dharshini-447.github.io/NPA-Analysis/Charts/GNPA_Trend_2005_2025.html]
+       
        2. Stacked area chart showing sector contribution to total GNPA 
        [https://deva-dharshini-447.github.io/NPA-Analysis/Charts/Sector_Share_2020_2025.html]
+       
        3. Bar chart of Top 10 banks by GNPA exposure in 2025 
        [https://deva-dharshini-447.github.io/NPA-Analysis/Charts/Top_10_Banks_2025.html]
+       
        4. Bar chart highlighting Best Improvers (percentage reduction 2020–2025) 
        [https://deva-dharshini-447.github.io/NPA-Analysis/Charts/Best_Improvers_2020_2025.html]
+       
    • Exported all charts as standalone HTML files.
 
 ## ## *Key Insights and their Macroeconomic Context* ## ##
