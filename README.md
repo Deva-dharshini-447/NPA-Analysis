@@ -1,4 +1,4 @@
-## NPA-Analysis ##
+## SQL-Python-NPA-Analysis ##
 
 # Credit Risk Analysis: Movement of Non-Performing Assets (2005–2025)
 
